@@ -28,7 +28,7 @@ python train_language_model_updated.py \
     --temperature 0.3 \
     --gen_max_length 50 \
     --log_dir ./inference_logs
-************For transformers ******************
+#For transformers
 python train_language_model_updated.py \
     --inference_only \
     --model_path ./transformer_models/transformer_best.pt \
