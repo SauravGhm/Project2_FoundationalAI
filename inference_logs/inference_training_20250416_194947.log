@@ -1,0 +1,36 @@
+2025-04-16 19:49:47,053 - INFO - Running in inference mode
+2025-04-16 19:49:47,053 - INFO - Parameters:
+2025-04-16 19:49:47,053 - INFO -   batch_size: 128
+2025-04-16 19:49:47,053 - INFO -   context_length: 128
+2025-04-16 19:49:47,053 - INFO -   dropout: 0.2
+2025-04-16 19:49:47,053 - INFO -   embedding_dim: 256
+2025-04-16 19:49:47,053 - INFO -   epochs: 30
+2025-04-16 19:49:47,053 - INFO -   gen_max_length: 50
+2025-04-16 19:49:47,053 - INFO -   hidden_dim: 512
+2025-04-16 19:49:47,053 - INFO -   inference_only: True
+2025-04-16 19:49:47,053 - INFO -   learning_rate: 0.001
+2025-04-16 19:49:47,053 - INFO -   log_dir: ./inference_logs
+2025-04-16 19:49:47,053 - INFO -   model: None
+2025-04-16 19:49:47,053 - INFO -   model_path: ./rnn_models/rnn_best.pt
+2025-04-16 19:49:47,053 - INFO -   no_cuda: False
+2025-04-16 19:49:47,053 - INFO -   num_heads: 4
+2025-04-16 19:49:47,053 - INFO -   num_layers: 2
+2025-04-16 19:49:47,053 - INFO -   num_workers: 4
+2025-04-16 19:49:47,053 - INFO -   output_dir: ./models
+2025-04-16 19:49:47,053 - INFO -   patience: 5
+2025-04-16 19:49:47,053 - INFO -   prompts: ['She doubted the sincerity']
+2025-04-16 19:49:47,053 - INFO -   seed: 42
+2025-04-16 19:49:47,053 - INFO -   temperature: 0.6
+2025-04-16 19:49:47,053 - INFO -   tokenizer_path: gutenberg_bpe.model
+2025-04-16 19:49:47,053 - INFO -   train_data: None
+2025-04-16 19:49:47,053 - INFO -   valid_data: None
+2025-04-16 19:49:47,053 - INFO -   weight_decay: 0.01
+2025-04-16 19:49:47,053 - INFO - Using device: cpu
+2025-04-16 19:49:47,054 - ERROR - Model file not found: ./rnn_models/rnn_best.pt
+2025-04-16 19:49:47,054 - ERROR - Error: Model file not found: ./rnn_models/rnn_best.pt
+Traceback (most recent call last):
+  File "/Users/sauravghimire/Documents/proj2/train_language_model_updated.py", line 592, in main
+    inference_only(args, logger)
+  File "/Users/sauravghimire/Documents/proj2/train_language_model_updated.py", line 411, in inference_only
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Model file not found: ./rnn_models/rnn_best.pt

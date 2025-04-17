@@ -1,0 +1,39 @@
+2025-04-16 19:55:24,867 - INFO - Running in inference mode
+2025-04-16 19:55:24,867 - INFO - Parameters:
+2025-04-16 19:55:24,867 - INFO -   batch_size: 128
+2025-04-16 19:55:24,867 - INFO -   context_length: 128
+2025-04-16 19:55:24,867 - INFO -   dropout: 0.2
+2025-04-16 19:55:24,867 - INFO -   embedding_dim: 256
+2025-04-16 19:55:24,867 - INFO -   epochs: 30
+2025-04-16 19:55:24,867 - INFO -   gen_max_length: 50
+2025-04-16 19:55:24,867 - INFO -   hidden_dim: 512
+2025-04-16 19:55:24,867 - INFO -   inference_only: True
+2025-04-16 19:55:24,867 - INFO -   learning_rate: 0.001
+2025-04-16 19:55:24,867 - INFO -   log_dir: ./inference_logs
+2025-04-16 19:55:24,867 - INFO -   model: None
+2025-04-16 19:55:24,867 - INFO -   model_path: ./rnn_models/rnn_best.pt
+2025-04-16 19:55:24,867 - INFO -   no_cuda: False
+2025-04-16 19:55:24,867 - INFO -   num_heads: 4
+2025-04-16 19:55:24,867 - INFO -   num_layers: 2
+2025-04-16 19:55:24,867 - INFO -   num_workers: 4
+2025-04-16 19:55:24,867 - INFO -   output_dir: ./models
+2025-04-16 19:55:24,867 - INFO -   patience: 5
+2025-04-16 19:55:24,867 - INFO -   prompts: ['She doubted the sincerity']
+2025-04-16 19:55:24,867 - INFO -   seed: 42
+2025-04-16 19:55:24,867 - INFO -   temperature: 0.6
+2025-04-16 19:55:24,867 - INFO -   tokenizer_path: gutenberg_bpe.model
+2025-04-16 19:55:24,867 - INFO -   train_data: None
+2025-04-16 19:55:24,867 - INFO -   valid_data: None
+2025-04-16 19:55:24,867 - INFO -   weight_decay: 0.01
+2025-04-16 19:55:24,867 - INFO - Using device: cpu
+2025-04-16 19:55:24,868 - INFO - Loading model from ./rnn_models/rnn_best.pt
+2025-04-16 19:55:24,906 - INFO - Loading tokenizer from gutenberg_bpe.model
+2025-04-16 19:55:24,910 - INFO - Creating rnn model instance
+2025-04-16 19:55:24,958 - INFO - Model loaded successfully
+2025-04-16 19:55:24,958 - INFO - Generating text with temperature 0.6
+2025-04-16 19:55:24,958 - INFO - 
+Generating sample text:
+2025-04-16 19:55:24,958 - INFO - ========================================
+2025-04-16 19:55:24,958 - INFO - Prompt 1: She doubted the sincerity
+2025-04-16 19:55:25,071 - INFO - Generated: She doubted the sincerity of his friend, ⁇ that is, that the pursuit of the Russians were in no way. ⁇  And they went away with the wagon loaded to Dorothy, and a bird would have been thinking of him. ⁇  She was
+2025-04-16 19:55:25,071 - INFO - ----------------------------------------

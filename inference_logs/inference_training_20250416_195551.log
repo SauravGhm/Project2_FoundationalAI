@@ -1,0 +1,39 @@
+2025-04-16 19:55:51,025 - INFO - Running in inference mode
+2025-04-16 19:55:51,025 - INFO - Parameters:
+2025-04-16 19:55:51,025 - INFO -   batch_size: 128
+2025-04-16 19:55:51,025 - INFO -   context_length: 128
+2025-04-16 19:55:51,025 - INFO -   dropout: 0.2
+2025-04-16 19:55:51,025 - INFO -   embedding_dim: 256
+2025-04-16 19:55:51,025 - INFO -   epochs: 30
+2025-04-16 19:55:51,025 - INFO -   gen_max_length: 50
+2025-04-16 19:55:51,025 - INFO -   hidden_dim: 512
+2025-04-16 19:55:51,025 - INFO -   inference_only: True
+2025-04-16 19:55:51,025 - INFO -   learning_rate: 0.001
+2025-04-16 19:55:51,025 - INFO -   log_dir: ./inference_logs
+2025-04-16 19:55:51,025 - INFO -   model: None
+2025-04-16 19:55:51,025 - INFO -   model_path: ./lstm_models/lstm_best.pt
+2025-04-16 19:55:51,025 - INFO -   no_cuda: False
+2025-04-16 19:55:51,025 - INFO -   num_heads: 4
+2025-04-16 19:55:51,025 - INFO -   num_layers: 2
+2025-04-16 19:55:51,025 - INFO -   num_workers: 4
+2025-04-16 19:55:51,025 - INFO -   output_dir: ./models
+2025-04-16 19:55:51,025 - INFO -   patience: 5
+2025-04-16 19:55:51,025 - INFO -   prompts: ['She doubted the sincerity']
+2025-04-16 19:55:51,025 - INFO -   seed: 42
+2025-04-16 19:55:51,025 - INFO -   temperature: 0.3
+2025-04-16 19:55:51,025 - INFO -   tokenizer_path: gutenberg_bpe.model
+2025-04-16 19:55:51,025 - INFO -   train_data: None
+2025-04-16 19:55:51,025 - INFO -   valid_data: None
+2025-04-16 19:55:51,025 - INFO -   weight_decay: 0.01
+2025-04-16 19:55:51,025 - INFO - Using device: cpu
+2025-04-16 19:55:51,026 - INFO - Loading model from ./lstm_models/lstm_best.pt
+2025-04-16 19:55:51,087 - INFO - Loading tokenizer from gutenberg_bpe.model
+2025-04-16 19:55:51,091 - INFO - Creating lstm model instance
+2025-04-16 19:55:51,138 - INFO - Model loaded successfully
+2025-04-16 19:55:51,138 - INFO - Generating text with temperature 0.3
+2025-04-16 19:55:51,138 - INFO - 
+Generating sample text:
+2025-04-16 19:55:51,138 - INFO - ========================================
+2025-04-16 19:55:51,138 - INFO - Prompt 1: She doubted the sincerity
+2025-04-16 19:55:51,320 - INFO - Generated: She doubted the sincerity of a sort of thought.** 93.], which is the Son of God?'t we?oined unto us?far?'s sake?But I am sure it would be a good deal of it.*
+2025-04-16 19:55:51,320 - INFO - ----------------------------------------
